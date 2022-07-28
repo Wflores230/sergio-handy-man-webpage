@@ -7,7 +7,7 @@ const STYLES = ['btn--primary', 'btn--outline'];
 const SIZES = ['btn--medium', 'btn--large'];
 
 export const Button = ({
-    childern, 
+    children, 
     type, 
     onClick, 
     buttonStyle, 
@@ -28,7 +28,7 @@ export const Button = ({
                 onClick={onClick}
                 type={type}
             >
-                {childern}   
+                {children}   
              </button>
         </Link>
     );
