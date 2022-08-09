@@ -6,7 +6,7 @@ import './Background.css';
 function Background() {
   return (
     <div className='background-container'>
-        <video src='/videos/videos-2.mp4'></video>
+       
         <h1>Sergio's Handyman Services</h1>
         <p>We can help with anything</p>
         <div className='background-btns'>
