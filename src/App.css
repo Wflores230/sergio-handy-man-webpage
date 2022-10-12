@@ -7,8 +7,8 @@
   
   .home,
   .services,
-  .products,
-  .sign-up {
+  .reviews,
+  .about {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -17,7 +17,7 @@
   }
   
   .services {
-    background-image: url('');
+    background-image: url('/public/images/moutain.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,20 +25,20 @@
     font-size: 100px;
   }
   
-  .products {
-    background-image: url('');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .sign-up {
-    background-image: url('');
+  .reviews {
+    background-image: url('/public/images/island.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+  }
+  
+  .about {
+    background-image: url('/public/images/ocean.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    
   }

@@ -33,13 +33,13 @@ function Cards() {
               src='images/tiles.jpg'
               text='Laying Tile'
               label=''
-              path='/products'
+              path='/services'
             />
             <CardItem
               src='images/retaining.jpg'
               text='Retaining Walls'
               label=''
-              path='/sign-up'
+              path='/services'
             />
           </ul>
         </div>

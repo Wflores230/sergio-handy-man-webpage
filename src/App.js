@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css';
 import Home from './components/pages/Home'
 import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+import Reviews from './components/pages/Reviews';
+import About from './components/pages/About';
 
 
 function App() {
@@ -18,10 +18,10 @@ function App() {
           { <Home/> } />
           <Route path='/services' exact element=
           { <Services/> } />
-          <Route path='/products' exact element=
-          { <Products/> } />
-          <Route path='/sign-up' exact element=
-          { <SignUp/> } />
+          <Route path='/reviews' exact element=
+          { <Reviews/> } />
+          <Route path='/about' exact element=
+          { <About/> } />
         </Routes>
       </Router>
     </div>
